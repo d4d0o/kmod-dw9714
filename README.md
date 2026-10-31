@@ -21,7 +21,7 @@ Then install the DKMS package:
 
 ```sh
 sudo rm -rf /usr/src/dw9714-0.1.0
-sudo cp -a . /usr/src/dw9714-0.1.0
+sudo cp -a kmod-dw9714 /usr/src/dw9714-0.1.0
 sudo dkms add -m dw9714 -v 0.1.0
 sudo dkms build -m dw9714 -v 0.1.0
 sudo dkms install -m dw9714 -v 0.1.0
